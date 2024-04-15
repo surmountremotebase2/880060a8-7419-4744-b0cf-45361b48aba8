@@ -1,1 +1,1 @@
-{"interval": "1min", "assets": ["AAPL", "MSFT", "NVDA", "GOOG"], "strategy": [], "groups": {"Group name 1": ["GOOG"], "Group name 2": ["MSFT"]}}
+{"interval": "1min", "assets": ["AAPL", "MSFT", "NVDA", "GOOG"], "strategy": [{"type": "IF", "conditions": [{"type": "BINARY", "first": {"name": "RSI", "args": {"length": "1", "ticker_group": ["GOOG"]}, "advanced": {}}, "second": {"name": "constant", "args": {"value": "2"}}, "comp": ">", "operator": ""}], "if_action": {"type": "ACTION", "steps": []}, "else_action": {"type": "ACTION", "steps": []}}]}
