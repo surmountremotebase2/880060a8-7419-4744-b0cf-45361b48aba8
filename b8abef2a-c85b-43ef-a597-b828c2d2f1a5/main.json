@@ -1,1 +1,1 @@
-{"assets": ["AAPL", "MSFT", "NVDA", "GOOG"]}
+{"assets": ["AAPL", "MSFT", "NVDA", "GOOG"], "groups": {"Group name 1": ["AAPL", "MSFT"], "Group name 2": ["MSFT", "NVDA", "GOOG"]}}
